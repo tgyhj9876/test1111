@@ -1,0 +1,35 @@
+/* 전체 스타일 */
+
+/* 각주 스타일 */
+.footnote {
+    font-size: 0.9em;
+    vertical-align: super;
+    color: #007bff;
+    cursor: pointer;
+    border-bottom: 1px dashed #007bff;
+}
+
+/* 툴팁 스타일 */
+.tooltip {
+    position: absolute;
+    background-color: #d3d3d3;
+    color: #1e90ff;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 999;
+    display: none;
+}
+
+.tooltip img {
+    display: block; /* 이미지를 블록 요소로 설정하여 중앙 정렬합니다. */
+    margin: 0 auto;
+    max-width: 100%; /* 이미지 크기를 조정할 수 있습니다. */
+    height: auto;
+}
+이제 data-tooltip 속성에 이미지를 추가하면 해당 이미지가 툴팁으로 표시됩니다. 
+이미지 크기와 스타일을 필요에 따라 조정할 수 있습니다.
+
+
+
+
+

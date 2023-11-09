@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <style>
+    /* 전체박스 */
+    #wrap {
+        width: 90%;
+        margin: 0 auto;
+        border: 4px solid #ffffff;
+        padding-top: 80px; /* 고정 상단 바 높이만큼 공간 확보 */
+    }
+
+    /* 고정 상단 바 스타일 */
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px; /* 고정 상단 바 높이 */
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    /* 로고 이미지 스타일 */
+    #logo {
+        max-width: 100px;
+        height: auto;
+    }
+
+    /* 프로젝트 제목 스타일 */
+    #title {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left; /* 왼쪽 정렬로 변경 */
+    margin-left: 750px; /* 왼쪽 여백을 조정하여 제목을 왼쪽으로 밀기 */
+    margin-right: auto; /* 오른쪽 여백을 자동으로 설정하여 가운데로 고정 */
+}
+
+    /* 넘버링 스타일 */
+    #numbering {
+        font-size: 18px;
+        margin-right: 50px; /* 오른쪽 마진 추가 */ 
+    }
+
+    /* 본문 내용 스타일 */
+    #wrap p {
+        width: 52%;
+        /* 가변패딩 공식 = (패딩값 % 부모박스 가로너비) * 100 */
+        padding: 40px 4%; /* 위아래 40px 왼오른 4% */
+        margin: 0 auto;
+        background: #ffffff;
+        font-size: 18px;
+        line-height: 1.7; /* 원하는 행간 값을 지정합니다. */
+
+
+    }
+
+    
+
+    /* 미디어 쿼리: 화면 너비가 768px 이하일 때 */
+    @media (max-width: 768px) {
+        #header {
+            padding: 0 10px;
+        }
+
+        #title {
+            font-size: 20px;
+        }
+
+        #numbering {
+            font-size: 16px;
+        }
+    }
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>A-1AU</title>
+</head>
+
+<body>
+<div id="header">
+    <!-- 로고 이미지 -->
+    <img id="logo" src="logo.png" alt="로고 이미지">
+    
+    <!-- 프로젝트 제목 -->
+     <div id="title">unsoiled<br>delusion</div>
+    
+    <!-- 넘버링 -->
+    <div id="numbering">A</div>
+</div>
+<div id="wrap">
+    <!-- 본문 내용 -->
+    <p>
+         <img src="a.png" style="display: block; margin: 0 auto;"><br> <!-- Center-aligned image -->
+
+        <b>1. 개요</b>
+    <br> A - 1AU 지구는 예술 분야가 발전된 특별한 지구로<sup class="footnote" data-tooltip="[1] <img src='a.png' alt='[1]' width='200' height='200'>">[1]</sup>, 전시회에서 일회성으로 사용되고 버려지는 식물이 많았다. 전시 후 폐기물을 처리하는 과정에서 새로운 결합으로 인해 ‘큐브 식물’ 이 발견되었다. 이 식물은 ‘현재 지구’ 의 식물과 같이 광합성과 물을 통해 성장한다. 그렇지만 높은 전염성<sup class="footnote" data-tooltip="[2] <span> 계속해서 결합이 생겨나는 모습을 나타낸 자료이다.<img src='wjsdua.png' alt='[2]' width='800' height='800'></span>">[2]</sup> 을 갖고 있다는 점과, 크기도 계속 커지는 점 때문에 부동산 문제 및 관상 문제가 발생하여, A - 1AU 지구에서는 ‘현재 지구’ 의 식물, 즉 기존의 식물을 다시 되돌리기 위한 연구를 진행 중인 것으로 보인다.
+
+
+    </p>
+
+    <p> <b>2. 설명</b>
+          <br>
+            unsoiled 가 처음 마주한 평행우주인 A - 1AU 지구는 첫 번째 접촉 시에는 현재 지구와 별다른 차이가 없는 것처럼 보였다. 사람들이 여전히 존재하며 살아갔고, 도시는 여전히 북적였다. 그러나 보다 철저한 조사를 통해 우리는 이 A - 1AU 지구에서 운영되는 다수의 전시장을 확인할 수 있었다. 현재 지구에서 개최되는 전시의 횟수나, 열리는 주기 등으로 비교했을 때, 이곳에서는 훨씬 더 다양한 전시 활동이 이루어지고 있음을 관찰했다. 이러한 현상을 통해 A - 1AU 지구에서의 예술은 새로운 차원으로 확장되어 가는 것으로 예측할 수 있었다. 다양한 분야의 발전은 현재 지구에서도 이루어지고 있었지만, A - 1AU 지구는 이례적으로 예술 분야의 진보가 압권으로 보였다.
+
+            이곳의 예술가들은 창의력을 극대화하고 놀라운 작품을 창조하는 데에 노력을 모두 쏟아냈다. 그리고 이를 대중에게 보여주기 위해 다양한 종류의 전시를 개최했는데, 그러나 이러한 작품들은 특이하게도 단 한 번의 전시를 위해 만들어지고 쉽게 버려지는 것들처럼 다루어지고 있는 것으로 확인되었다. A - 1AU 지구의 CCTV 장치에 접속할 수 있었던 우리는 이를 확인할 수 있는 단서로는 전시장 근처나 골목 뒤편에서 발견된 전시용품들을 발견했다.
+
+
+    <br>
+
+</p>
+
+<p> <b>3. 발생 원인</b>
+<br>
+    이 특이한 발견은 예술 전시와 관련된 장비 및 작가들의 작품을 처리하는 과정에서 가정 내 폐기물 처리와 유사한 방식으로 이루어진 것으로 보였다. 또한, 이러한 폐기물 처리장과 같이 보이는 골목이 여기저기에 존재했으며,  이러한 지역에서 우리는 흥미로운 현상을 관찰했다. 그 흥미롭고도 이상한 현상은 마치 전시 쓰레기에서 영향을 받은 것처럼 보이는 큐브 모양의 식물이 자라나고 있었다는 점이다. 이 발견은 CAM 284<sup class="footnote" data-tooltip="[2] <img src='cctv2.png' alt='[2]' width='400' height='400'>">[2]</sup>를 통해 최초로 확인하였다. 
+
+    <br>
+
+
+</p>
+
+    <p> <b>4. 특징</b>
+
+    <br>
+    이 독특한 생물체인 ‘큐브 식물 (cube plants)’ 은 그 크기가 다양하게 나타났으며, 총 세 가지의 크기 범주고 구분할 수 있었다. 이러한 크기 범주는 가장 작은 것이 15cm² 에서 시작하여 30cm² 까지 자랄 수 있었으며, 가장 큰 큐브 식물은 최대 100cm² 까지 성장이 가능한 것으로 보였다.
+
+    <img src="4.png" style="display: block; margin: 0 auto;"><br> <!-- Center-aligned image -->
+
+    가장 작은 큐브 식물인 15cm² 크기는 한 면의 면적으로, 일반적으로 사람 손의 한 뼘 정도의 너비를 나타낸다. 이것은 큐브 식물의 가장 작은 개체가 상당히 작은 크기를 가지고 있다는 것을 의미한다. 중간 크기의 큐브 식물은 보통 개별 개체가 결합한 경우로 가정했을 때, 평균적으로 작은 나무의 높이와 비슷한 정도의 높이를 가지고 있었다. 이러한 큐브 식물은 여러 개체가 연결되어 복합적인 구조를 형성함으로써 다양한 형태의 식물을 만들어 내는 것으로 관찰되었다.
+
+    이러한 크기는 해당 식물의 생장 정도를 나타내는 중요한 지표였으며, ‘큐브 식물’은 현재 지구의 다른 식물들과 비슷하게 광합성 및 수분 이용 능력을 효과적으로 활용하여 놀랍도록 빠른 속도로 성장하고 있는 것으로 보인다. 더욱 놀라운 사실은 이 식물이 높은 전염성을 갖고 있었으며, 서로 다른 크기의 ‘큐브 식물’ 개체가 결합하여 더 크고 다양한 형태의 식물들이 나타나는 것을 확인할 수 있었다.
+
+
+</p>
+
+
+    </p>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
